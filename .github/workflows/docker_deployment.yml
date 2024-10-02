@@ -2,7 +2,7 @@ name: Build and Deploy to AWS
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" ] #@@#
 
 env:
   IMAGE_NAME: eg850/cicd-test-app   # Format: <dockerhub_account>/<repo>
